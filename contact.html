@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LTS Hours</title>
+  <link rel="stylesheet" href="styles.css" </head>
+
+<body>
+  <header>
+    <h1>Contact Us</h1>
+
+    <nav aria-label="primary-navigation">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="index.html#about">About LTS</a>
+        </li>
+        <li>
+          <a href="index.html#menu">Our Menu</a>
+        </li>
+        <li>
+          <a href="store-hours.html">Store Hours</a>
+        </li>
+      </ul>
+    </nav>
+
+    <figure>
+      <img src="https://cityofmissionviejo.org/sites/default/files/2018-06/ronaldos.jpg" alt="tacco image" width="250"
+        height="150" loading="lazy">
+      <figcaption>Don't hesitate, contact us!</figcaption>
+    </figure>
+
+  </header>
+
+  <hr>
+
+  <main>
+
+    <h2>Our Contact Form</h2>
+
+    <form action="https:httpbin.org/get" method="get">
+      <fieldset>
+      <legend>Send us a message</legend>
+
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+      </p>
+      <p>
+        <label for="message">Your message:</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </p>
+
+    </fieldset>
+    </form>
+
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Send</button>
+    <button type="reset">Reset</button>
+  </main>
+
+  <footer>
+    <h2>Our Location</h2>
+
+    <address>555 Taco Temptation Lane Suite T
+      <br>
+      Kansas City, MO
+    </address>
+
+    <p>Phone:<a href="tel:555-555-5555">555-555-5555</a></p>
+    <p><a href="#">Back To Top</a></p>
+  </footer>
+
+</body>
+
+</html>

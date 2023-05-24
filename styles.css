@@ -1,0 +1,13 @@
+table, caption, th, tr, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+body {
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  border: 1px solid grey;
+}
