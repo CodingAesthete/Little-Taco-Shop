@@ -9,116 +9,104 @@
   <link rel="stylesheet" href="styles.css" </head>
 
 <body>
-  <header>
-    <h1>Welcome To The Little Taco Shop!</h1>
+  <header class="header">
+    <h1 class="header-title">Little Taco Shop</h1>
 
-    <nav aria-label="primary-navigation">
-      <ul>
+    <nav aria-label="primary-navigation" class="header-nav">
+      <ul class="header-nav-ul">
         <li>
-          <a href="#about">About LTS</a>
+          <a href="about.html">About</a>
         </li>
         <li>
-          <a href="#menu">Our Menu</a>
+          <a href="#menu">Menu</a>
         </li>
         <li>
-          <a href="store-hours.html">Store Hours</a>
+          <a href="hours.html">Hours</a>
         </li>
         <li>
-          <a href="contact.html">Contact us</a>
+          <a href="contact.html">Contact</a>
         </li>
       </ul>
     </nav>
 
-    <figure>
-      <img src="https://dierezepte.com/wp-content/uploads/2018/07/Tacco-Salat-Rezept.jpg" alt="tacco image" width="250"
-        height="150" loading="lazy">
-      <figcaption>Delicious Taccos</figcaption>
-    </figure>
-
   </header>
+
+  <section class="welcome-section">
+    <h2 class="welcome-title">Bienvenidos!</h2>
+    <figure>
+      <img src="img/home.png" alt="tacco image" width="1000"
+        height="667" loading="lazy" class="welcome-img">
+      <figcaption class="welcome-img-figcaption">Delicious Taccos</figcaption>
+    </figure>
+  </section>
 
   <hr>
 
   <main>
 
-    <article id="about">
-
-      <h2>About <abbr title="Little Tacco Shop">LTS</abbr></h2>
-      <p><strong><abbr title="Little Tacco Shop">LTS</abbr></strong> was founded in 2022. Our shop was built from a love
-        of tacos&#127790;&#127790;&#127790;. We hope our shop adds a unique and interesting place to our little town.
-      </p>
-
-      <h3>Taco Trivia</h3>
-      <aside>
-        <details>
-          <summary>
-            When did tacos first appear in the United States?
-          </summary>
-          <p>We also don't know.</p>
-        </details>
-      </aside>
-
-    </article>
-
-    <hr>
-
     <article id="menu">
 
-      <h2>Our Menu</h2>
+      <div class="menu-title-wrapper">
+        <h2 class="menu-title">Our Menu</h2>
+      </div>
 
-      <table>
-        <caption>Our Tacos</caption>
+      <table class="menu-container">
+        <caption class="menu-caption">Our Tacos</caption>
 
         <thead>
           <tr>
-            <th scope="column">Tacos</th>
-            <th scope="column"><abbr title="Quantity">Qty</abbr></th>
-            <th scope="column">Price</th>
+            <th scope="column" class="menu-header">Tacos</th>
+            <th scope="column" class="menu-header">Quantity</th>
+            <th scope="column" class="menu-header"><abbr title="Price for one taco">Price</abbr></th>
           </tr>
         </thead>
 
         <tbody>
           <tr>
-            <th rowspan="3">Crunchy</th>
-            <td>1</td>
-            <td>$1.50</td>
+            <th rowspan="3" class="menu-item menu-crunchy">Crunchy</th>
+            <td class="menu-item">1</td>
+            <td class="menu-item">$1.50</td>
           </tr>
           <tr>
-            <td>2</td>
-            <td>$2.50</td>
+            <td class="menu-item">2</td>
+            <td class="menu-item">$2.50</td>
           </tr>
           <tr>
-            <td>3</td>
-            <td>$3.25</td>
+            <td class="menu-item">3</td>
+            <td class="menu-item">$3.25</td>
           </tr>
 
           <tr>
-            <th rowspan="3">Soft</th>
-            <td>1</td>
-            <td>$2.00</td>
+            <th rowspan="3" class="menu-item menu-soft">Soft</th>
+            <td class="menu-item">1</td>
+            <td class="menu-item">$2.00</td>
           </tr>
           <tr>
-            <td>2</td>
-            <td>$3.50</td>
+            <td class="menu-item">2</td>
+            <td class="menu-item">$3.50</td>
           </tr>
           <tr>
-            <td>3</td>
-            <td>$4.50</td>
+            <td class="menu-item">3</td>
+            <td class="menu-item">$4.50</td>
           </tr>
         </tbody>
 
         <tfoot>
-          <td colspan="3">Chips & Salsa $2</td>
+          <td class="menu-item menu-cs" colspan="3">Chips & Salsa $2</td>
         </tfoot>
 
       </table>
 
     </article>
 
+    <p class="back-to-top">
+      <a href="#">Back To Top</a>
+    </p>
+
   </main>
 
-  <footer>
-    <p><a href="#">Back To Top</a></p>
+  <footer class="footer">
+    <p class="footer-copyright">Copyright © 2023 Little Taco Shop</p>
   </footer>
 
 </body>
